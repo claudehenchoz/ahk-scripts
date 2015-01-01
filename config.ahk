@@ -9,6 +9,7 @@ RWin::AppsKey
 ;Shell shortcuts
 ^!p::Run powershell, %StartFolder%
 ^!c::Run cmd, %StartFolder%
+^!.::Run explorer, %StartFolder%
 
 ;Handy shortcut for PowerShell
 ^!w::SendInput Get-CimInstance -Namespace root/CIMV2 -ClassName Win32_
