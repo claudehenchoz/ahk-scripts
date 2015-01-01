@@ -18,7 +18,7 @@ RWin::AppsKey
 ^!s::Run "C:\Users\Claude\Dropbox\SeedSync\downloads_from_seedbox.cmd", C:\Users\Claude\Dropbox\SeedSync\
 
 ;Run TF2
-^!2::Run steam://rungameid/440
+^!t::Run steam://rungameid/440
 
 ;Fun
 ^!v::Run "https://www.youtube.com/watch?feature=player_detailpage&v=Sb04wApMa_s#t=22"
