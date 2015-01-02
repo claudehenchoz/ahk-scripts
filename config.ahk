@@ -20,6 +20,9 @@ RWin::AppsKey
 ;Run TF2
 ^!t::Run steam://rungameid/440
 
+;Run Quake
+^!q::Run steam://rungameid/282440
+
 ;Fun
 ^!v::Run "https://www.youtube.com/watch?feature=player_detailpage&v=Sb04wApMa_s#t=22"
 
