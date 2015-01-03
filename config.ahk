@@ -23,6 +23,9 @@ RWin::AppsKey
 ;Run Quake
 ^!q::Run steam://rungameid/282440
 
+;Run Brutal Doom
+^!d::Run "C:\Program Files (x86)\Zandronum\zandronum.exe" "D:\Games\DOOM II\brutal19.pk3"
+
 ;Fun
 ^!v::Run "https://www.youtube.com/watch?feature=player_detailpage&v=Sb04wApMa_s#t=22"
 
