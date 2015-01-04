@@ -11,6 +11,9 @@ RWin::AppsKey
 ^!c::Run cmd, %StartFolder%
 ^!.::Run explorer %StartFolder%, %StartFolder%
 
+;Handy shortcut for vagrant (mainly for logins)
+^!v::SendInput vagrant
+
 ;Handy shortcut for PowerShell
 ^!w::SendInput Get-CimInstance -Namespace root/CIMV2 -ClassName Win32_
 
@@ -27,7 +30,7 @@ RWin::AppsKey
 ^!d::Run "C:\Program Files (x86)\Zandronum\zandronum.exe" "D:\Games\DOOM II\brutal19.pk3"
 
 ;Fun
-^!v::Run "https://www.youtube.com/watch?feature=player_detailpage&v=Sb04wApMa_s#t=22"
+^!y::Run "https://www.youtube.com/watch?feature=player_detailpage&v=Sb04wApMa_s#t=22"
 
 ;Run Notepad
 ^!n::
